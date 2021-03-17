@@ -1,0 +1,36 @@
+@import "variables";
+@import "globals";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem 1.5rem;
+}
+
+section {
+  padding: 1rem;
+}
+
+.join {
+  background-color: white;
+}
+
+.subscription {
+  background-color: $primaryCyan;
+}
+
+.sign-up {
+  background-color: $paleBlue;
+}
+
+.why-us {
+  background-color: $lightCyan;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
