@@ -16,6 +16,7 @@ html {
 
 body {
   font-family: "Karla", sans-serif;
+  font-weight: 400;
   line-height: 1.3;
   background-color: #e5eff5;
 }
@@ -31,23 +32,71 @@ li {
 }
 
 section {
-  padding: 1rem;
+  padding: 1.5rem;
+  color: #e5eff5;
+}
+section h2 {
+  font-weight: 400;
+  padding-bottom: 1rem;
+}
+section h3 {
+  padding-bottom: 1rem;
+  font-weight: 400;
 }
 
 .join {
   background-color: white;
+  color: black;
+}
+.join h2 {
+  color: #2ab2af;
+}
+.join h3 {
+  color: #c0df34;
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+.join P {
+  color: #98a7bd;
+  line-height: 1.75;
 }
 
 .subscription {
   background-color: #2ab2af;
 }
-
-.sign-up {
-  background-color: #98a6bd;
+.subscription .monthly {
+  display: flex;
+  align-items: center;
+}
+.subscription .monthly .price {
+  font-size: 2rem;
+  font-weight: 700;
+  padding-right: 1rem;
+}
+.subscription .monthly p {
+  color: #e5eff5a6;
+}
+.subscription .price-desc {
+  padding-top: 0.5rem;
+  padding-bottom: 1.75rem;
+}
+.subscription button {
+  background-color: #c0df34;
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 0.5em;
+  border: none;
+  color: white;
+  box-sizing: border-box;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
 }
 
 .why-us {
-  background-color: rgba(42, 178, 175, 0.71);
+  background-color: #4bbebc;
+}
+.why-us ul li {
+  color: #e5eff5;
+  opacity: 0.7;
 }
 
 .attribution {

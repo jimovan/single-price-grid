@@ -8,23 +8,84 @@
 }
 
 section {
-  padding: 1rem;
+  padding: 1.5rem;
+  color: $lightGrey;
+
+  h2 {
+    font-weight: 400;
+    padding-bottom: 1rem;
+  }
+
+  h3 {
+    padding-bottom: 1rem;
+    font-weight: 400;
+  }
 }
 
 .join {
   background-color: white;
+  color: black;
+
+  h2 {
+    color: $primaryCyan;
+  }
+
+  h3 {
+    color: $primaryYellow;
+    font-weight: 700;
+    padding-bottom: 1rem;
+  }
+
+  P {
+    color: $paleBlue;
+    line-height: 1.75;
+  }
 }
 
 .subscription {
   background-color: $primaryCyan;
-}
 
-.sign-up {
-  background-color: $paleBlue;
+  .monthly {
+    display: flex;
+    align-items: center;
+
+    .price {
+      font-size: 2rem;
+      font-weight: 700;
+      padding-right: 1rem;
+    }
+
+    p {
+      color: #e5eff5a6;
+    }
+  }
+
+  .price-desc {
+    padding-top: 0.5rem;
+    padding-bottom: 1.75rem;
+  }
+
+  button {
+    background-color: $primaryYellow;
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 0.5em;
+    border: none;
+    color: white;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 3px hsl(0, 0, 0, 10%);
+  }
 }
 
 .why-us {
   background-color: $lightCyan;
+
+  ul {
+    li {
+      color: $lightGrey;
+      opacity: 0.7;
+    }
+  }
 }
 
 .attribution {
