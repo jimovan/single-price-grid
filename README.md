@@ -20,7 +20,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc/hub/single-price-grid-challenge-2-1ArEXmxlB](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc/hub/single-price-grid-challenge-2-1ArEXmxlB)
+- Solution URL: [https://www.frontendmentor.io/solutions/single-price-grid-challenge-2-1ArEXmxlB](https://www.frontendmentor.io/solutions/single-price-grid-challenge-2-1ArEXmxlB)
 - Live Site URL: [https://jimovan.github.io/single-price-grid/](https://jimovan.github.io/single-price-grid/)
 
 ### Built with
